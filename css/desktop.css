@@ -1,0 +1,14 @@
+/*Les variables qui contiennent les couleurs*/
+:root{
+    --primaire: #9356DC;
+    --secondaire: #FF79DA ;
+    --tertiaire: #99E2D0;
+    --police-titre: 'shrikhand', cursive;
+    --police-texte: 'roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+

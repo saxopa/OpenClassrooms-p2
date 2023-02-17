@@ -1,0 +1,105 @@
+/*Les variables qui contiennent les couleurs*/
+:root{
+    --primaire: #9356DC;
+    --secondaire: #FF79DA ;
+    --tertiaire: #99E2D0;
+    --police-titre: 'shrikhand', cursive;
+    --police-texte: 'roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--police-titre);
+}
+p{
+    font-family: var(--police-texte);
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    
+}
+header>img{
+    width: 50%;
+}
+.section-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EAEAEA;
+    column-gap: 2%;
+}
+
+.section-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    background: #F7F7F7;
+}
+.section-cta>h3{
+    width: 70%;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bolder;
+    font-family: var(--police-texte);
+    margin-bottom: 0;
+
+}
+.section-cta>p{
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+.section-cta>button{
+    margin-top: 0;
+    width: 60%;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(170deg, var(--secondaire), var(--primaire));
+    border: none;
+    color: white;
+
+}
+.section-fonctionnement{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.section-fonctionnement>button{
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    width: 80%;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+    margin: 0 auto;
+}
+/*Mettre le chiffre sur la bordure gauche du bouton */
+.section-fonctionnement>span{
+    position: absolute;
+    top:0;
+    left:0;
+
+
+}
+.section-restaurant{
+    width: 100%;
+    background-color: #9356DC;
+    
+}
+
+.section-restaurant figure{
+    background-color: red;
+}
+
+.section-restaurant figcaption{
+    background-color: blue;
+
+}
+.image-carte-section-restaurant{
+    height: 80%;
+    width: 100%;
+}
