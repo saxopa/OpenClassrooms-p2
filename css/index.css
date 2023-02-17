@@ -1,0 +1,14 @@
+@import url("normalize.css");
+@import url("mobile.css") (max-width: 768px);
+@import url("tablet.css") (min-width: 769px) and (max-width: 991px);
+@import url("desktop.css") (min-width: 992px);
+
+/*Les variables qui contiennent les couleurs*/
+:root{
+    --primaire: #9356DC;
+    --secondaire: #FF79DA ;
+    --tertiaire: #99E2D0;
+    /*--police-titre: 'shrikhand', cursive;*/
+    --police-titre: 'roboto', sans-serif;
+    --police-texte: 'roboto', sans-serif;
+}

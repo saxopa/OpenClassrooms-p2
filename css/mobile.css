@@ -1,11 +1,4 @@
-/*Les variables qui contiennent les couleurs*/
-:root{
-    --primaire: #9356DC;
-    --secondaire: #FF79DA ;
-    --tertiaire: #99E2D0;
-    --police-titre: 'shrikhand', cursive;
-    --police-texte: 'roboto', sans-serif;
-}
+
 h1,h2,h3,h4,h5,h6{
     font-family: var(--police-titre);
 }
@@ -66,8 +59,9 @@ header>img{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    
 }
-.section-fonctionnement>button{
+.btn-fonctionnement{
     display: flex;
     align-items: center;
     column-gap: 2px;
@@ -76,11 +70,12 @@ header>img{
     border-radius: 25px;
     border: none;
     margin: 0 auto;
+    position: relative;
 }
 /*Mettre le chiffre sur la bordure gauche du bouton */
 .section-fonctionnement>span{
     position: absolute;
-    top:0;
+    top:50;
     left:0;
 
 
