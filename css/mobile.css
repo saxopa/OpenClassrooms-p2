@@ -74,27 +74,34 @@ header>img{
 }
 /*Mettre le chiffre sur la bordure gauche du bouton */
 .section-fonctionnement>span{
-    position: absolute;
-    top:50;
-    left:0;
+    
 
 
 }
 .section-restaurant{
-    width: 100%;
+    width: 90%;
     background-color: #9356DC;
     
 }
 
 .section-restaurant figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
     background-color: red;
+   
 }
 
 .section-restaurant figcaption{
     background-color: blue;
 
 }
+.card-restau{
+    height: 200px;
+}
 .image-carte-section-restaurant{
-    height: 80%;
-    width: 100%;
+    width: 95%;
+
 }
