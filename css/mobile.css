@@ -181,20 +181,39 @@ header>img{
 
 
 }
-.section-restaurant figcaption div{
+.conteneur-texte, .conteneur-coeur{
     display: flex;
     flex-direction: column;
 
 }
-.section-restaurant figcaption  h4{
-    text-decoration: none;
-    margin: 4% 0;
+.conteneur-texte{
+    height: 100%;
+    width: 90%;
 }
-.fa-heart{
-    font-size: 15px;
-    color: black;
+.conteneur-coeur{
+    height: 95%;
+    width: 10%;
+    align-items: flex-start;
+    margin-top: 5%;
 
 }
+.conteneur-texte  h4{
+    text-decoration: none;
+    margin: 3% 0 0 0;
+}
+.conteneur-texte  p{
+    margin: 2% 0 0 0;
+}
+.fa-heart{
+
+    font-size: 18px;
+    color: black;
+    height: 100%;
+}
+.fa-heart::before{
+    font-weight: 200;
+} 
+
 
 footer{
     width:100%;
