@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+
+
+}
+.section-menu{
+    width: 70%;
+    background: #000;
+
+}
+.menu-items{
+    
+}
+.image-plat{}
