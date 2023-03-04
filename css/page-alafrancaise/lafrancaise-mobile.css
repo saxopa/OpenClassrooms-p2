@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  header i {
+    margin-left: 3%;
+  }
+  .logo {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .conteneur-image-plat {
+    z-index: 100;
+  }
+  .conteneur-image-plat img {
+    width: 100%;
+  }
+  .conteneur-restau-nom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .carte-menu {
+    z-index: 99;
+    width: 100%;
+    background: red;
+    border-radius: 25px 25px 0 0;
+  }
+  .carte-menu div h1 {
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .carte-menu div i {
+    font-size: 19px;
+    margin-right: 5%;
+  }
+
+  
+  .menu-plat {
+    display: flex;
+    justify-content: space-between;
+    background-color:purple;
+    height: 80px;
+    width: 94%;
+    margin-left:3%;
+    border-radius: 15px;
+  }
+
+  .info-plat h5,p{
+    width: 100%;
+    margin-left: 10%;
+
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+  }
+
+.info-plat{
+  background: green;
+  width: 60%;
+
+}
+.check-animation{
+  width: 40%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background: yellow;
+}
+/*le Prix*/
+.check-animation span{
+  width: 100%;
+  --webkit-horizontal-align: center;
+  align-self: end;
+}
+/*conteneur check*/
+.fa-check{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: grey;
+  width:50%;
+  height: 100%;
+  color: white;
+}
+/*icone check*/
+
+}
