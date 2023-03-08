@@ -1,51 +1,102 @@
+h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.9em;
+}
 /*-----------------Header------------------------*/
-header{
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    width: 100%;
+header {
+  display: flex;
+  background: var(--primaire);
+  justify-content: center;
+  width: 100%;
 }
 
 /*-----------------Section Banner------------------------*/
-.section-banner{
-    display: flex;
-    align-items:end ;
-    justify-content: end;
-    gap: 10px;
+.section-banner {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5%;
 }
 .section-banner .fa-location-dot {
-    color: black;
-    background-color: red;
+  color: black;
 }
 
 /*----------------Section CTA-------------------------*/
-.section-cta{
-    width:40%;
-    height: fit-content;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: red;
-    border-radius: 50px;
-    text-align: center;
+.section-cta {
+  width: 100%;
+  height: 55vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondaire);
+  border-radius: 50px;
+  text-align: center;
 }
 
 .section-cta button {
-    background: linear-gradient(170deg, var(--secondaire), var(--primaire));
-    border-radius: 50px;
-    height: 40px;
-    width: 40%;
+  background: linear-gradient(170deg, var(--secondaire));
+  border-radius: 50px;
+  height: 80px;
+  width: 40%;
+  margin-bottom: 20px;
+  border-style: none;
 }
 /*------------------section fonctionnement-----------------------*/
-.section-fonctionnement{
-
+.section-fonctionnement {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+  background: grey;
+}
+/*titre fonctionnement h3*/
+.titre-section-fonctionnement {
+  align-self: start;
+  text-align: center;
+  width: 100%;
+}
+/*boutton fonctionnement*/
+.btn-fonctionnement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 1% 4%;
+}
+.btn-fonctionnement span {
+  visibility: hidden;
 }
 /*------------------section restau & card (figure)-----------------------*/
-figure img{
-    width: 100%;
+.section-restaurant{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+}
+.titre-section-restau {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background: grey;
+}
+.card-restau figure {
+  width: 25%;
+}
+.image-carte-section-restaurant {
+  width: 100%;
+}
+.card-restau figure figcaption h3 span{
+    margin: 0;
+
 }
 
-
-
-
+/*------------------Footer-----------------------*/
+footer {
+  width: 100%;
+  background-color: var(--primaire);
+}
