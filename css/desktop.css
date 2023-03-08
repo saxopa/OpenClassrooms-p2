@@ -1,6 +1,51 @@
-
+/*-----------------Header------------------------*/
 header{
     display: flex;
     justify-content: center;
+    background-color: grey;
+    width: 100%;
 }
+
+/*-----------------Section Banner------------------------*/
+.section-banner{
+    display: flex;
+    align-items:end ;
+    justify-content: end;
+    gap: 10px;
+}
+.section-banner .fa-location-dot {
+    color: black;
+    background-color: red;
+}
+
+/*----------------Section CTA-------------------------*/
+.section-cta{
+    width:40%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: red;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.section-cta button {
+    background: linear-gradient(170deg, var(--secondaire), var(--primaire));
+    border-radius: 50px;
+    height: 40px;
+    width: 40%;
+}
+/*------------------section fonctionnement-----------------------*/
+.section-fonctionnement{
+
+}
+/*------------------section restau & card (figure)-----------------------*/
+figure img{
+    width: 100%;
+}
+
+
+
 

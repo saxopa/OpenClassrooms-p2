@@ -74,7 +74,6 @@
 /*le Prix*/
 .check-animation span{
   width: 100%;
-  --webkit-horizontal-align: center;
   align-self: end;
 }
 /*conteneur check*/
