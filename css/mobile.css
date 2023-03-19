@@ -216,6 +216,10 @@ header>img{
     font-weight: 200;
 } 
 
+.fa-heart:hover{
+    color: #FFB800;
+    background-color: #FFB800;
+}
 
 footer{
     width:100%;
