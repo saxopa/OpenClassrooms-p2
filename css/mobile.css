@@ -118,6 +118,7 @@ header>img{
 .section-restaurant{
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 25px;
     background: #F7F7F7;
 
     
@@ -195,7 +196,7 @@ header>img{
 .conteneur-coeur{
     height: 95%;
     width: 10%;
-    align-items: flex-start;
+    align-items:center ;
     margin-top: 5%;
 
 }
@@ -206,9 +207,8 @@ header>img{
 .conteneur-texte  p{
     margin: 2% 0 0 0;
 }
-.fa-heart{
-
-    font-size: 18px;
+.fa-heart::before{
+    font-size: 28px;
     color: black;
     height: 100%;
 }
@@ -217,8 +217,7 @@ header>img{
 } 
 
 .fa-heart:hover{
-    color: #FFB800;
-    background-color: #FFB800;
+    
 }
 
 footer{
