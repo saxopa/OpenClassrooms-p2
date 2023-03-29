@@ -1,3 +1,4 @@
+@import url('/css/index.css');
 @media screen and (max-width: 767px) {
   header {
     display: flex;
@@ -39,7 +40,7 @@
     margin-right: 5%;
   }
 
-  
+  /*section menu*/
   .menu-plat {
     display: flex;
     justify-content: space-between;
@@ -48,6 +49,7 @@
     width: 94%;
     margin-left:3%;
     border-radius: 15px;
+    margin-bottom: 20px;
   }
 
   .info-plat h5,p{
@@ -64,28 +66,6 @@
   width: 60%;
 
 }
-.check-animation{
-  width: 40%;
-  display: flex;
-  justify-content:center ;
-  align-items: center;
-  background: yellow;
-}
-/*le Prix*/
-.check-animation span{
-  width: 100%;
-  align-self: end;
-}
-/*conteneur check*/
-.fa-check{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  background: grey;
-  width:50%;
-  height: 100%;
-  color: white;
-}
-/*icone check*/
+
 
 }
