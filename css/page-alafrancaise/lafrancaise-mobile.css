@@ -3,15 +3,18 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     height: 40px;
-    width: 100%;
+    width: 95%;
   }
-  header .fa-arrow-left {
-    justify-self: start;
+  .fleche-gauche {
+    margin-left: 5%;
+
   }
   .logo {
+    margin-left: 30%;
     width: 50%;
+    
     justify-self: center;
   }
   .conteneur-image-plat {
@@ -55,17 +58,25 @@
     box-shadow: 5px 5px 5px #E7E7E7;
   }
   .info-plat{
-    /*background: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: green;
     width: 60%;
     height: 100%;
   }
 
   .info-plat h5,p{
+    margin: 5px 0 5px 5px;
+
 
 
     
   }
   .menu-plat span{
+    margin:0;
+    margin-top: 2%;
+    margin-right: 5%;
 
 
   
