@@ -3,16 +3,16 @@
   header {
     display: flex;
     align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid black;
+    justify-content: space-around;
+    height: 40px;
     width: 100%;
   }
-  header i {
-    margin-left: 3%;
+  header .fa-arrow-left {
+    justify-self: start;
   }
   .logo {
-    margin-left: 25%;
     width: 50%;
+    justify-self: center;
   }
   .conteneur-image-plat {
     z-index: 100;
@@ -28,8 +28,9 @@
   .carte-menu {
     z-index: 99;
     width: 100%;
-    background: red;
+    /*background: red;*/
     border-radius: 25px 25px 0 0;
+    padding-bottom: 20px;
   }
   .carte-menu div h1 {
     margin-left: 5%;
@@ -44,28 +45,31 @@
   .menu-plat {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:purple;
     height: 80px;
     width: 94%;
     margin-left:3%;
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px #E7E7E7;
+  }
+  .info-plat{
+    /*background: green;*/
+    width: 60%;
+    height: 100%;
   }
 
   .info-plat h5,p{
-    width: 100%;
-    margin-left: 10%;
 
-    margin-top: 5px;
-    margin-bottom: 0;
+
     
   }
+  .menu-plat span{
 
-.info-plat{
-  background: green;
-  width: 60%;
 
-}
+  
+  }
 
 
 }
