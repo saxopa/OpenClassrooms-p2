@@ -1,4 +1,4 @@
-@import url("/css/index.css");
+@import url("/css/style.css");
 @import url("/css/normalize.css");
 @media screen and (max-width: 767px) {
   main {
@@ -79,6 +79,7 @@
     border-radius: 15px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px #e7e7e7;
+    animation: animation-menu 1s ease-in 0s 1 normal both;
   }
   .info-plat {
     display: flex;
@@ -107,24 +108,15 @@
   footer {
     margin-top: -30px;
   }
-  @keyframes fadein {
-    from {
-      opacity:0;
-    }
-    to {
-      opacity:1;
-    }
-  }
-  @keyframes fill {
+  @keyframes animation-menu {
     0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.5;
+      opacity:0;
+      margin-top: 10px ;
     }
     100% {
-      opacity: 1;
+      opacity:1;
+      margin-top:0 ;
     }
-
-}
+  }
+ 
 }

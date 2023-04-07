@@ -142,6 +142,9 @@ header {
 }
 
 **********************************************************/
+
+
+/*Balise <a>*/
 .card-restau{
   display: flex;
   align-content: center;
@@ -158,7 +161,7 @@ header {
 }
 
 
-/*------------------Footer-----------------------*/
+/*------------------Footer spécial desktop-----------------------*/
 footer {
   display: flex;
   flex-direction: row-reverse;
