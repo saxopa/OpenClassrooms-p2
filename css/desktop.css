@@ -155,9 +155,24 @@ header {
 .card-restau figure {
   margin:0;
   width: 100%;
+  
+}
+.card-restau figcaption{
+  margin:0;
+  display: flex;
+  flex: row;
+  align-items: center;
+  background-color: white;
+}
+.conteneur-texte{
+  margin-right: 50%;
+  
+
 }
 .image-carte-section-restaurant {
   width: 100%;
+  height: 300px;
+  
 }
 
 
