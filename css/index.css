@@ -1,8 +1,6 @@
-@import url("normalize.css");
-@import url("mobile.css") (max-width: 767px);
-@import url("tablet.css") (min-width: 768px) and (max-width: 991px);
-@import url("desktop.css") (min-width: 992px);
-@import url("style.css");
+@import url("css/main-style/normalize.css");
+@import url("accueil/style.css");
+@import url("main-style/footer.css");
 
 /*Les variables qui contiennent les couleurs*/
 :root {
