@@ -90,6 +90,35 @@
     width: 60%;
     height: 100%;
   }
+  .conteneur-info-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin:0;
+  }
+  .conteneur-info-check{
+    
+  }
+
+  @keyframes animation-check {
+    0% {
+
+    }
+    25% {
+
+    }
+    50% {
+
+    }
+    75% {
+
+    }
+    100% {
+      
+    }
+  }
 
   .info-plat h5,
   p {

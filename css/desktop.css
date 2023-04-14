@@ -56,7 +56,6 @@ header {
   flex-wrap: wrap;
   margin-top: 15px;
   width: 97%;
-  background: grey;
 }
 /*titre fonctionnement h3*/
 .titre-section-fonctionnement {
@@ -74,6 +73,7 @@ header {
   width: 25%;
   margin: 1% 4%;
   position: relative;
+  
 }
 .btn-fonctionnement span{
   padding: 1%;
@@ -101,7 +101,7 @@ header {
   align-items: center;
   margin-top: 50px;
   width: 100%;
-  background: grey;
+
 }
 
 .titre-section-restau {
@@ -151,10 +151,12 @@ header {
   justify-content: center;
   width: 40%;
   margin-top: 30px;
+  
 }
 .card-restau figure {
   margin:0;
   width: 100%;
+  -webkit-drop-shadow: 0 0 50px rgba(0,0,0,0.5);
   
 }
 .card-restau figcaption{
@@ -182,6 +184,7 @@ footer {
   flex-direction: row-reverse;
   align-items: center;
   height: 150px !important;
+  margin-top: 50px;
   
 
   
