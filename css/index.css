@@ -1,6 +1,7 @@
 @import url("css/main-style/normalize.css");
-@import url("accueil/style.css");
 @import url("main-style/footer.css");
+@import url("accueil/style.css");
+
 
 /*Les variables qui contiennent les couleurs*/
 :root {
