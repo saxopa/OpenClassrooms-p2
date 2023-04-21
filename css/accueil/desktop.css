@@ -1,6 +1,4 @@
-h3 {
-  font-size: 1.9em;
-}
+
 /*-----------------Header------------------------*/
 header {
   display: flex;
@@ -37,8 +35,11 @@ header {
   border-radius: 50px;
   text-align: center;
 }
+section>h3 {
+  font-size: 1.9em;
+}
 
-.section-cta>button {
+.bouton-glob {
   background: linear-gradient(170deg, var(--secondaire), var(--primaire));
   border-radius: 50px;
   height: 80px;

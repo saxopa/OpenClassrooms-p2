@@ -1,4 +1,4 @@
-@import url('/css/index.css');
+@import url("/css/index.css");
 
   
 h1,h2,h3,h4,h5,h6{
@@ -51,7 +51,7 @@ header>img{
     width: 80%;
     text-align: center;
 }
-.section-cta>button{
+.bouton-glob{
     margin: 0 auto;
     width: 60%;
     height: 60px;
@@ -61,6 +61,7 @@ header>img{
     color: white;
 
 }
+
 .section-fonctionnement{
     display: flex;
     flex-direction: column;
@@ -90,13 +91,13 @@ header>img{
 }
 /*Mettre le chiffre sur la bordure gauche du bouton */
 .btn-fonctionnement span{
-    padding: 1%;
+
     border-radius: 50%;
     height: 22%;
     width:6%;
     position: absolute;
     top:38%;
-    left: -4%;
+    left: -3%;
     background: var(--primaire);
     color: white;
     
@@ -209,7 +210,9 @@ header>img{
 .conteneur-texte  p{
     margin: 2% 0 0 0;
 }
-/*.fa-heart::before{
+
+
+.fa-heart::before{
     font-size: 28px;
     color: black;
     height: 100%;
@@ -222,7 +225,7 @@ header>img{
     color: red;
     
 }
-*/
+
 .fa-heart{
     font-size:24px;
     color: black;

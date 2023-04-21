@@ -17,8 +17,7 @@ a {
 }
 
 /*animation coeur*/
-.fa-heart:hover,
-.fa-heart:active {
+.fa-heart:hover, .fa-heart:active {
   background: linear-gradient(var(--primaire), var(--secondaire));
   --webkit-background-clip: text;
   color: transparent;
