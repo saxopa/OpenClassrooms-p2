@@ -1,5 +1,4 @@
-@import url('mobile.css') (max-width: 767px);
+@import url("../index.css");
+@import url("mobile.css") (max-width: 767px);
 @import url("tablet.css") (min-width: 768px) and (max-width: 991px);
 @import url("desktop.css") (min-width: 992px);
-@import url("css/main-style/footer.css");
-@import url("css/main-style/normalize.css");

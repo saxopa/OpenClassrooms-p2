@@ -1,4 +1,4 @@
-@import url("/css/index.css");
+@import url("css/index.css");
 
   
 h1,h2,h3,h4,h5,h6{
@@ -212,11 +212,11 @@ header>img{
 }
 
 
-.fa-heart::before{
+/*.fa-heart::before{
     font-size: 28px;
     color: black;
     height: 100%;
-}
+}*/
 .fa-heart::before{
     font-weight: 200;
 } 
