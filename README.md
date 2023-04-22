@@ -1,5 +1,5 @@
 # OpenClassrooms-p3
-<h1>Maquette Ohmyfood</h1>
+Maquette Ohmyfood
 
 Réalisation du Projet 3 OpenClassrooms 
 Disponible en direct à l'adresse suivante :
