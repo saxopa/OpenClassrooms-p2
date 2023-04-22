@@ -1,5 +1,4 @@
-@import url('css/restaurants/restaurant-mobile.css') (max-width: 767px);
-@import url("css/restaurants/restaurant-tab.css") (min-width: 768px) and (max-width: 991px);
-@import url("css/restaurants/restaurant-desktop.css") (min-width: 992px);
-@import url("css/main-style/footer.css");
-@import url("css/main-style/normalize.css");
+@import url("../index.css");
+@import url("restaurant-mobile.css") (max-width: 767px);
+@import url("restaurant-tab.css") (min-width: 768px) and (max-width: 991px);
+@import url("restaurant-desktop.css") (min-width: 992px);

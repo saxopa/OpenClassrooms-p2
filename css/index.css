@@ -112,6 +112,7 @@ footer {
 }
 .logo-pdp {
   -webkit-filter: invert(100%);
+  filter: invert(100%);
   margin: 5% 0 0 8%;
   width: 90px;
 }
