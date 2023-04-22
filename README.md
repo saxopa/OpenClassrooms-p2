@@ -3,6 +3,5 @@
 
 Réalisation du Projet 3 OpenClassrooms 
 Disponible en direct à l'adresse suivante :
-<a href:"https://saxopa.github.io/OpenClassrooms-p3"></a>
-
+https://saxopa.github.io/OpenClassrooms-p3
 Merci à mon mentor pour l'aide qu'il m'a apporté au cours de ce projet.
