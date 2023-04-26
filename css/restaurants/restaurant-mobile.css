@@ -1,7 +1,5 @@
-@import url("/css/main-style/normalize.css");
-@import url("/css/main-style/footer.css");
-@import url("css/accueil/mobile.css");
-@media screen and (max-width: 767px) {
+@import url("../index.css");
+
   main {
     margin: 0;
     padding: 0;
@@ -120,7 +118,7 @@
     width: 80%;
     height: 100%;
   }
-  .info-plat > p {
+  .info-plat > p,h5 {
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -184,4 +182,4 @@
       margin-top: 0;
     }
   }
-}
+

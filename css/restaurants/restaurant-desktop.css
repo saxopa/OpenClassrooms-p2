@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+}
+.logo{
+    width: 250px;
+    justify-self: center;
+    margin-left: 25%;
+}
+.fleche-gauche{
+    margin-left: 3% ;
+}
+.conteneur-image-plat{
+    width: 100%;
+    object-fit: cover;
+    height: 30rem;
+
+    
+}
+.conteneur-restau-nom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.fa-heart{
+    font-size:20px ;
+}
+/*contient  entrée plat et dessert*/
+.container-menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu-plat{
+    display: flex;
+    align-items: center;
+
+}

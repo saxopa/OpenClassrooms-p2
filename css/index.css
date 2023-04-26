@@ -135,3 +135,14 @@ footer nav ul li {
 footer nav ul li i {
   margin-right: 5px;
 }
+
+.bouton-glob{
+  margin: 0 auto;
+  width: 60%;
+  height: 60px;
+  border-radius: 50px;
+  background: linear-gradient(170deg, var(--secondaire), var(--primaire));
+  border: none;
+  color: white;
+
+}

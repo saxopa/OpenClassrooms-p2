@@ -51,16 +51,6 @@ header>img{
     width: 80%;
     text-align: center;
 }
-.bouton-glob{
-    margin: 0 auto;
-    width: 60%;
-    height: 60px;
-    border-radius: 50px;
-    background: linear-gradient(170deg, var(--secondaire), var(--primaire));
-    border: none;
-    color: white;
-
-}
 
 .section-fonctionnement{
     display: flex;
@@ -225,10 +215,9 @@ header>img{
     color: red;
     
 }
-
+*/
 .fa-heart{
     font-size:24px;
-    color: black;
 }
-*/
+
 
