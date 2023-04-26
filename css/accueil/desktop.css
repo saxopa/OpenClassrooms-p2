@@ -161,10 +161,11 @@ section>h3 {
   
 }
 .card-restau figcaption{
+  width: 100%;
   margin:0;
   display: flex;
-  flex: row;
   align-items: center;
+  justify-content: space-around;
   background-color: white;
 }
 .conteneur-texte{
