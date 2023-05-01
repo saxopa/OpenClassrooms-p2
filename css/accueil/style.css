@@ -2,3 +2,14 @@
 @import url("mobile.css") (max-width: 767px);
 @import url("tablet.css") (min-width: 768px) and (max-width: 991px);
 @import url("desktop.css") (min-width: 992px);
+
+header>img{
+    color:white;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+/*Btn fonctionnement = active , hover*/
+.btn-fonctionnement:hover,:active{
+    background: #F5EDFF;
+}
