@@ -1,15 +1,19 @@
+/*-----------------Header------------------------*/
 header {
   display: flex;
   align-items: center;
+  background: var(--primaire);
   width: 100%;
 }
-.logo {
-  width: 250px;
-  justify-self: center;
-  margin-left: 25%;
+header img{
+  width:20%;
+  margin-top: 1%;
+  margin-bottom:1%;
   filter: invert(1);
   -webkit-filter: invert(1);
+  margin-left: 37%;
 }
+
 .fleche-gauche {
   margin-left: 3%;
 }
