@@ -1,4 +1,4 @@
-@import url(/css/accueil/desktop.css);
+@import url("desktop.css");
 .conteneur-card-restau{
     flex-direction: column;
 }
