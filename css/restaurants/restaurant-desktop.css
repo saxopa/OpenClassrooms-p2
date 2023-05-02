@@ -1,156 +1,151 @@
-header{
-    display: flex;
-    align-items: center;
-    width: 100%;
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
-.logo{
-    width: 250px;
-    justify-self: center;
-    margin-left: 25%;
-    filter: invert(1);
-    -webkit-filter: invert(1);
+.logo {
+  width: 250px;
+  justify-self: center;
+  margin-left: 25%;
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
-.fleche-gauche{
-    margin-left: 3% ;
+.fleche-gauche {
+  margin-left: 3%;
 }
-.conteneur-image-plat{
-    width: 100%;
-    object-fit: cover;
-    height: 30rem;
-
-    
+.conteneur-image-plat {
+  width: 100%;
+  object-fit: cover;
+  height: 30rem;
 }
-.conteneur-restau-nom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2%;
+.conteneur-restau-nom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
 }
-.fa-heart{
-    font-size:20px ;
+.fa-heart {
+  font-size: 20px;
 }
 /*contient  entrée plat et dessert*/
-.container-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-.liste-menu{
-  
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .menu-plat {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    /*background-color:purple;*/
-    height: 80px;
-    width: 100%;
-    margin-left: 3%;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px #e7e7e7;
-    animation: animation-menu 1s ease-in 0s 1 normal both;
-    position: relative;
-  }
-  .menu-plat:hover .conteneur-animation-check,
-  .menu-plat:active .conteneur-animation-check {
-    visibility: visible;
-    animation: animation-check-slide-left 0.5s ease-out 0s forwards;
-  }
-  .menu-plat:hover .info-plat,
-  .menu-plat:active .info-plat {
-    width: 60%;
-  }
-  .menu-plat:hover .prix,
-  .menu-plat:active .prix {
-    animation: animation-check-slide-left 0.5s ease-out 0s forwards;
-  }
-  .menu-plat:hover .fa-circle-check,
-  .menu-plat:active .fa-circle-check {
-    animation: rotation 0.5s ease 0.3s forwards;
-  }
-  .fa-circle-check::before {
-    font-size: 30px;
-    color: white;
-  }
-  /*Div qui contient le prix*/
-  .prix {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-  }
-  .info-plat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 15px 0 0 15px;
-    width: 80%;
-    height: 100%;
-  }
-  .info-plat > p,h5 {
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /*background-color:purple;*/
+  height: 80px;
+  width: 100%;
+  margin-left: 3%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px #e7e7e7;
+  animation: animation-menu 1s ease-in 0s 1 normal both;
+  position: relative;
+}
+.menu-plat:hover .conteneur-animation-check,
+.menu-plat:active .conteneur-animation-check {
+  visibility: visible;
+  animation: animation-check-slide-left 0.5s ease-out 0s forwards;
+}
+.menu-plat:hover .info-plat,
+.menu-plat:active .info-plat {
+  width: 60%;
+}
+.menu-plat:hover .prix,
+.menu-plat:active .prix {
+  animation: animation-check-slide-left 0.5s ease-out 0s forwards;
+}
+.menu-plat:hover .fa-circle-check,
+.menu-plat:active .fa-circle-check {
+  animation: rotation 0.5s ease 0.3s forwards;
+}
+.fa-circle-check::before {
+  font-size: 30px;
+  color: white;
+}
+/*Div qui contient le prix*/
+.prix {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.info-plat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px 0 0 15px;
+  width: 80%;
+  height: 100%;
+}
+.info-plat > p,
+h5 {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.conteneur-animation-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  background-color: #99e2d0;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: -20%;
+  visibility: hidden;
+}
+
+@keyframes animation-check-slide-left {
+  0% {
+    transform: translateX(0);
   }
 
-  .conteneur-animation-check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 20%;
-    background-color: #99e2d0;
-    border-radius: 0 15px 15px 0;
-    position: absolute;
-    right: -20%;
-    visibility: hidden;
+  100% {
+    transform: translateX(-100%);
   }
-
-  @keyframes animation-check-slide-left {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-100%);
-    }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
   }
-  @keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
   }
-  .info-plat h5,
-  p {
-    margin: 5px 0 5px 5px;
-  }
-  .info-plat h5 {
-    font-size: 18px;
-  }
-  .info-plat p {
-    font-size: 16px;
-  }
-  .menu-plat span {
-    margin-bottom: 10px;
-    margin-right: 5%;
-  }
-  .bouton-glob{
-    width: 16%;
-    margin-left: 42%;
-  }
-  footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  footer ul{
-    display: flex;
-    justify-content: space-around;
-  }
+}
+.info-plat h5,
+p {
+  margin: 5px 0 5px 5px;
+}
+.info-plat h5 {
+  font-size: 18px;
+}
+.info-plat p {
+  font-size: 16px;
+}
+.menu-plat span {
+  margin-bottom: 10px;
+  margin-right: 5%;
+}
+.bouton-glob {
+  width: 16%;
+  margin-left: 42%;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
