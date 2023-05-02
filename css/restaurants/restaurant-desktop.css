@@ -7,6 +7,8 @@ header{
     width: 250px;
     justify-self: center;
     margin-left: 25%;
+    filter: invert(1);
+    -webkit-filter: invert(1);
 }
 .fleche-gauche{
     margin-left: 3% ;
@@ -30,8 +32,12 @@ header{
 /*contient  entrée plat et dessert*/
 .container-menu{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 
+}
+.liste-menu{
+  
 }
 .menu-plat {
     display: flex;
@@ -138,4 +144,13 @@ header{
   .bouton-glob{
     width: 16%;
     margin-left: 42%;
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer ul{
+    display: flex;
+    justify-content: space-around;
   }

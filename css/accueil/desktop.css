@@ -6,6 +6,12 @@ header {
   justify-content: center;
   width: 100%;
 }
+header img{
+  width:20%;
+  margin: 1% 0;
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
 
 /*-----------------Section Banner------------------------*/
 .section-banner {

@@ -3,13 +3,31 @@
 @import url("tablet.css") (min-width: 768px) and (max-width: 991px);
 @import url("desktop.css") (min-width: 992px);
 
-header>img{
-    color:white;
-    filter: invert(1);
-    -webkit-filter: invert(1);
-}
+
 
 /*Btn fonctionnement = active , hover*/
 .btn-fonctionnement:hover,:active{
     background: #F5EDFF;
+}
+
+.card-restau figure{
+    position: relative; 
+
+   
+}
+.etiquette-nouveau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    background:#99E2D0 ;
+    color: #018766;
+    height: 8%;
+    width:20%;
+    padding: 1%;
+    text-align: center;
+    
+
 }
