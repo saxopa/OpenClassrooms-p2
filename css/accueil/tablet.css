@@ -1,4 +1,8 @@
 @import url("desktop.css");
 .conteneur-card-restau{
+    width: 100%;
     flex-direction: column;
+}
+.card-restau{
+    width:90%;
 }

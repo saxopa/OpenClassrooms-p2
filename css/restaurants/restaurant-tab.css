@@ -19,4 +19,9 @@ header img{
 h3{
   margin:20px 5%;
 }
+.conteneur-image-plat{
+  object-fit: cover;
+  object-position: 0 60%;
+  height:50vh;
+}
 

@@ -12,6 +12,8 @@
 
 .card-restau figure{
     position: relative; 
+    box-shadow: 5px 5px 5px #E7E7E7;
+    border-radius: 20px;
 
    
 }

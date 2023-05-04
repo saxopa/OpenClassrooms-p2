@@ -130,8 +130,6 @@ header>img{
     height: 200px;
     border-radius: 20px;
     
-
-    
 }
 .etiquette-nouveau{
     position: absolute;
@@ -200,22 +198,6 @@ header>img{
 .conteneur-texte  p{
     margin: 2% 0 0 0;
 }
-
-
-/*.fa-heart::before{
-    font-size: 28px;
-    color: black;
-    height: 100%;
-}
-.fa-heart::before{
-    font-weight: 200;
-} 
-
-.fa-heart:active{
-    color: red;
-    
-}
-*/
 .fa-heart{
     font-size:24px;
 }

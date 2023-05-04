@@ -37,6 +37,9 @@ header img{
   flex-direction: row;
   justify-content: space-around;
 }
+.liste-menu{
+  width:30%;
+}
 .menu-plat {
   display: flex;
   justify-content: space-between;
@@ -131,7 +134,7 @@ p {
   margin: 5px 0 5px 5px;
 }
 .info-plat h5 {
-  font-size: 18px;
+  font-size: 15px;
 }
 .info-plat p {
   font-size: 16px;
@@ -144,12 +147,20 @@ p {
   width: 16%;
   margin-left: 42%;
 }
+.logo-pdp{
+  margin:0 2%
+}
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.nav{
+  width:fit-content;
+}
 footer ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  gap:2%;
 }
