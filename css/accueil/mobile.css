@@ -1,13 +1,7 @@
 @import url("css/index.css");
 
   
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--police-titre);
-}
-p{
-    font-family: var(--police-texte);
-    
-}
+
 
 header{
     display: flex;
@@ -81,7 +75,9 @@ header>img{
 }
 /*Mettre le chiffre sur la bordure gauche du bouton */
 .btn-fonctionnement span{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     height: 22%;
     width:6%;
@@ -95,11 +91,12 @@ header>img{
 
 }
 .contenu-btn{
-    margin-left:4%;
-    width: 80%;
+    margin-left:10%;
+    width: 100%;
     display: flex;
     align-items: center;;
-    justify-content: space-around;
+    justify-content: center;
+    gap:5%;
 
 }
 .contenu-btn p{
@@ -202,4 +199,8 @@ header>img{
     font-size:24px;
 }
 
+footer nav ul{
+    margin-left:6%;
+
+}
 

@@ -4,7 +4,9 @@
 @import url("desktop.css") (min-width: 992px);
 
 
-
+.btn-fonctionnement{
+    background: #F7F7F7;
+}
 /*Btn fonctionnement = active , hover*/
 .btn-fonctionnement:hover,:active{
     background: #F5EDFF;
@@ -14,8 +16,6 @@
     position: relative; 
     box-shadow: 5px 5px 5px #E7E7E7;
     border-radius: 20px;
-
-   
 }
 .etiquette-nouveau{
     display: flex;

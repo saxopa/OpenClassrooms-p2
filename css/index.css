@@ -1,4 +1,6 @@
 @import url("main-style/normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
 
 
 
@@ -8,12 +10,16 @@
   --primaire: #9356dc;
   --secondaire: #ff79da;
   --tertiaire: #99e2d0;
-  /*--police-titre: 'shrikhand', cursive;*/
-  --police-texte: "roboto", sans-serif;
+  --police-titre: 'Roboto', sans-serif;
+  --police-texte: 'Roboto', sans-serif;
 }
 a {
   text-decoration: none;
   color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-family: var(--police-texte);
 }
 
 /*animation coeur*/

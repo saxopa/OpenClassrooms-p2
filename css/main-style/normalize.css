@@ -158,6 +158,7 @@
    */
   
   button,
+  span,
   input,
   optgroup,
   select,
@@ -183,7 +184,7 @@
    * 1. Remove the inheritance of text transform in Firefox.
    */
   
-  button,
+  button,span,
   select { /* 1 */
     text-transform: none;
   }
