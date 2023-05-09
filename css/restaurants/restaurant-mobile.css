@@ -177,6 +177,11 @@
   footer {
     padding-top: -30px;
   }
+  footer nav ul{
+    margin-left:6%;
+
+}
+
   @keyframes animation-menu {
     0% {
       opacity: 0;
